@@ -27,7 +27,7 @@ send_sms(600000000, 'hello!', 611111111, 'mypassword')
 ```
 
 ### Mediante linea de comandos
-El modulo ofrece la posibilidad de enviar sms mediante linea de comandos. Para ello, se puede llamar con python a la carpeta del propio módulo (python snappy_sms), lo que equivale a ejecutar el contenido del script __main__.py. De forma alternativa, se pueden dar permisos de ejecución a un script python y ejecutar simplemente ese archivo desde linea de comandos.
+El modulo ofrece la posibilidad de enviar sms mediante linea de comandos. Para ello, se puede llamar con python a la carpeta del propio módulo (python snappy\_sms), lo que equivale a ejecutar el contenido del script \_\_main\_\_.py. De forma alternativa, se pueden dar permisos de ejecución a un script python y ejecutar simplemente ese archivo desde linea de comandos.
 
 ```bash
 usage: snappy_sms [-h] [-l LOGIN] [-p PASSWORD] [-v] destination message
@@ -57,13 +57,15 @@ A continuación se pueden ver algunos ejemplos de ejecución por linea de comand
 # are completely equivalent options, though the first one is recommended
 # for simplicity.
 
-# Sends a message to 600000000. Uses the username and password defined in snappy_sms/__init__.py
+# Sends a message to 600000000. Uses the username and password 
+# defined in snappy_sms/__init__.py
 python snappy_sms 600000000 "hello world!"
 
 # Same, but prints out details on destination number, message and success
 python snappy_sms -v snappy_sms 600000000 "hello world!"
 
-# Same, but uses 611111111 as username and 'mypass' as password instead of those defined in snappy_sms/__init__.py
+# Same, but uses 611111111 as username and 'mypass' as password 
+# instead of those defined in snappy_sms/__init__.py
 python snappy_sms -l 611111111 -p mypass 600000000 "hello world!"
 
 # Verbose option is available and confirms which username we are using
