@@ -4,7 +4,7 @@ Snappy SMS es un módulo python sencillo para enviar SMS a través de la API RES
 
 Esta API funciona y está probada únicamente para clientes de __Movistar España__. Para consultar la compatibilidad con Movistar en otros países consulta con tu operadora la validez de la API web para envío de SMS.
 
-Esta información sobre acceso a servicios de Movistar es válida a día _24 de Enero de 2013_. Es posible que se produzcan cambios inesperados en la disponibilidad del servicio o forma de acceder a las claves por parte de Movistar.
+Esta información sobre acceso a servicios de Movistar ha sido revisada el día _24 de Enero de 2013_. Es posible que se produzcan cambios inesperados en la disponibilidad del servicio o forma de acceder a las claves por parte de Movistar.
 
 ##Coste del servicio
 
